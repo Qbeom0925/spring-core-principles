@@ -2,7 +2,7 @@ package hello.core.discount;
 
 import hello.core.member.Member;
 
-public interface DiscountPlicy {
+public interface DiscountPolicy {
 
     /**
      *
