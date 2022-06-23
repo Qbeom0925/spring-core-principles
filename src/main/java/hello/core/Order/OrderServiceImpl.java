@@ -7,7 +7,7 @@ import hello.core.member.MemberRepository;
 public class OrderServiceImpl implements OrderService{
 
     private final MemberRepository memberRepository;
-    private DiscountPolicy discountPlicy;
+    private final DiscountPolicy discountPlicy;
 
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPlicy) {
         this.memberRepository = memberRepository;
