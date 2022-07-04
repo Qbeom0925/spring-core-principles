@@ -24,7 +24,7 @@ public class LogDemoController {
         String requestURL = request.getRequestURL().toString();
         MyLogger myLogger = myLoggerProvider.getObject();
         myLogger.setRequestURL(requestURL);
-
+    //요청에 따라 다른 객체를 사용
         myLogger.log("controller test");
         logDemoService.logic("testId");
         return "OK";
