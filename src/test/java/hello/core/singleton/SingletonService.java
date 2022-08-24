@@ -10,6 +10,8 @@ public class SingletonService {
 
     private SingletonService(){
 
+
+
     }
 
     public void logic(){
